@@ -1,0 +1,28 @@
+.slider-a .swiper-slide:nth-child(odd) > div {
+    color: #306eff;
+    background-color: #d6e2ff;
+}
+.slider-a .swiper-slide:nth-child(even) > div {
+    color: #306eff;
+    background-color: #f3f6ff;
+}
+.slider-b .swiper-slide > div {
+    color: #fc4349;
+    background-color: #fed9db;
+}
+.swiper-slide > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    padding: 160px 0;
+    border-radius: 0.25rem;
+    color: #000;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.swiper-pagination {
+    position: relative;
+}
